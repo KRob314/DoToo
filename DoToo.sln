@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.10.35122.118
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DoToo", "DoToo\DoToo.csproj", "{02034297-DBC8-408F-B8B2-A3CB840F3D1F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DoToo", "DoToo\DoToo.csproj", "{02034297-DBC8-408F-B8B2-A3CB840F3D1F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NewFolder1", "NewFolder1", "{88943A86-9A18-42D0-A58D-8960C52D5AE6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
