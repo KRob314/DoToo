@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using CommunityToolkit.Mvvm.ComponentModel;
 using DoToo.Models;
+using CommunityToolkit.Mvvm.Input;
 
 namespace DoToo.ViewModels
 {
@@ -18,5 +19,12 @@ namespace DoToo.ViewModels
         TodoItem item;
 
         public string StatusText => Item.Completed ? "Reactivate" : "Completed";
+
+        [RelayCommand]
+        void ToggleCompleted()
+        {
+            Item.Completed = !Item.Completed;
+            ItemStatusChanged?.Invoke(this, new EventArgs());
+        }
     }
 }

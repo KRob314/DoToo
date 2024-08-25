@@ -58,4 +58,13 @@
 		<PackageReference Include="SQLitePCLRaw.provider.sqlite3" Version="2.1.9" />
 	</ItemGroup>
 
+	<ItemGroup>
+	  <MauiXaml Update="Views\ItemView.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Views\MainView.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	</ItemGroup>
+
 </Project>
